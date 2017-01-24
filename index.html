@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title> MyWebsite </title>
 		<meta charset="utf-8"/>
 		<!-- To ensure rendering and zooming on mobile device bootstrap-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,17 +12,25 @@
 </body>
 	</head>
 <body>
-<nav class="navbar navbar-custom navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="#"> MyWebsite </a>
-		</div>
-	<ul class="nav navbar-nav">
-	<li class="active"><a href="#">Home</a></li>
-	<li><a href="#">1st page</a></li>
-	<li><a href="#">2nd page</a></li>
-	</ul>
-	</div>
+	<nav class="navbar navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuResize">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="menuResize">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 </body>
 
