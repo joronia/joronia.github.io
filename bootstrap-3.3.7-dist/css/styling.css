@@ -1,6 +1,17 @@
 .navbar-custom {
 	background-color:#FFDF00;
+}
 
+.navbar-custom .navbar-nav > li > a {
+  color: #5D9732;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+
+.navbar-custom .navbar-toggle {
+  border-color: black;
 }
 
 #footer {
@@ -20,26 +31,100 @@
 .footer-social-icons {
 	width:100%;
 	display:block;
-	/*margin: 0 auto; */
 	background-color: #FFDF00;
 	border-color: #FFDF00;
 	border-style: solid;
 	position:fixed;
 	bottom:0;
-	height: 4em;
+	height: 6em;
+
+}
+
+.contact {
+	list-style: none;
+	display: inline;
+	padding: 0 10px 0 10px;
 }
 
 ul.social-icons {
-	margin-top: 10px;
+	margin-top: 0px;
 	list-style: none;
 }
 
 .social-icons li {
 	vertical-align: top;
-	display: inline;
+	display: inline-block;
 	height: 100px;
 }
 
 .social-icon {
     color: #C0C0C0;
 }
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-github {
+	padding: 10px 12px; 
+	width:45px;
+	height:45px;
+	-moz-border-radius: 45px;
+	-webkit-border-radius:45px;
+	border-radius: 45px;
+    background-color: #FFDF00;
+}
+
+.fa-github:hover {
+    background-color: darkgrey;
+}
+
+.fa-linkedin {
+	padding: 10px 11px;
+	width:45px;
+	height:45px;
+	-moz-border-radius: 45px;
+	-webkit-border-radius:45px;
+	border-radius: 45px;
+    background-color: #FFDF00;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+.fa-twitter {
+	padding: 10px 12px;
+	width:45px;
+	height:45px;
+	-moz-border-radius: 45px;
+	-webkit-border-radius:45px;
+	border-radius: 45px;
+   	background-color: #FFDF00;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+#right {
+	position: fixed;
+	right: 20px;
+}
+
+#left {
+	position: fixed;
+	left: 20px;
+}
+
+h5 {
+	color: blue;
+	font-size: 1.0em;
+	font-family: Arial;
+	margin:  1% 0 1% 0;
+	text-shadow: 5px 5px 5px darkgreen;
+}
+
+
+
