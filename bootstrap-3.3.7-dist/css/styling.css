@@ -14,6 +14,15 @@
   border-color: black;
 }
 
+.page-header {
+	top: -43px;
+	position: relative;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-align: center;
+
+}
+
 /*#footer {
 	width:100%;
 	border-style: solid;
@@ -124,6 +133,10 @@ h5 {
 	font-family: Arial;
 	margin:  1% 0 1% 0;
 	text-shadow: 5px 5px 5px darkgreen;
+}
+
+body {
+	background-color: lightgrey;
 }
 
 #board {
