@@ -3,3 +3,43 @@
 
 }
 
+#footer {
+	width:100%;
+	border-style: solid;
+	border-color: #FFDF00;
+	position:fixed;
+	bottom: 0;
+	height: 4em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	background-color: #FFDF00;
+}
+
+
+.footer-social-icons {
+	width:100%;
+	display:block;
+	/*margin: 0 auto; */
+	background-color: #FFDF00;
+	border-color: #FFDF00;
+	border-style: solid;
+	position:fixed;
+	bottom:0;
+	height: 4em;
+}
+
+ul.social-icons {
+	margin-top: 10px;
+	list-style: none;
+}
+
+.social-icons li {
+	vertical-align: top;
+	display: inline;
+	height: 100px;
+}
+
+.social-icon {
+    color: #C0C0C0;
+}
