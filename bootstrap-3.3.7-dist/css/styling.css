@@ -46,8 +46,11 @@
 	position:fixed;
 	bottom:0;
 	height: 6em;
-
 }
+
+#stay-footer {
+	height:100%;
+} 
 
 .contact {
 	list-style: none;
@@ -135,8 +138,9 @@ h5 {
 	text-shadow: 5px 5px 5px darkgreen;
 }
 
-body {
+html,body {
 	background-color: lightgrey;
+	height: 100%;
 }
 
 #board {
@@ -161,6 +165,17 @@ body {
 #quote {
 	text-align: center;
 }
+
+#my-picture img {
+	margin-right: 14px;
+	position: relative;
+	top: -37px;
+	max-width: 100%;
+	height:350px;
+	min-width: 50px;
+}
+
+
 
 
 
