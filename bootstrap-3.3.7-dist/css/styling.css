@@ -169,11 +169,11 @@ html,body {
 #my-picture img {
 	width: 33%;
 	max-width: 580px;
-	margin-right: 5%;
+	margin-right: 40px;
 }
 
 #my-picture p {
-	padding-left: 10%;
+	padding-left: 55px;
 	display: inline;
 }
 
