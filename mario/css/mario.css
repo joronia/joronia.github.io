@@ -1,0 +1,83 @@
+/*div#MarioBackground {
+position: absolute;
+width: 3000px;
+height:540px;
+margin:auto;
+background-image:
+url(../img/MarioWorld.png);
+} */
+
+div#MarioBackground_back {
+position: absolute;
+width: 3000px;
+height:540px;
+margin:auto;
+background-image:
+url(../img/back.png);
+z-index: -5;
+}
+
+div#MarioBackground_mid {
+position: absolute;
+width: 3000px;
+height:540px;
+margin:auto;
+background-image:
+url(../img/mid.png);
+z-index:-3;
+}
+
+div#MarioBackground_front {
+position: absolute;
+width: 3000px;
+height:540px;
+margin:auto;
+background-image:
+url(../img/front.png);
+z-index:-1;
+}
+
+div#MarioBackground_brick {
+	position: absolute;
+width: 3000px;
+height:540px;
+margin:auto;
+background-image:
+url(../img/brick.png);
+z-index:-4;
+}
+
+div#Goomba {
+	position: absolute;
+    width:300px;
+    height:300px;
+    top: -42px;
+    margin:300px;
+    left: 0px;
+    content: url(../img/Goomba.gif);
+    z-index: 0;
+	
+}
+div#Shell {
+	position: absolute;
+	width:300px;
+	height:300px;
+	top:-510px;
+	margin:800px;
+	content: url(../img/shell.gif);
+	z-index:0;
+}
+
+div#Mario {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	top:240px;
+	left:100px;
+	z-index: 0;
+	content: url(../img/new_mario.gif) 
+}
+
+
+
