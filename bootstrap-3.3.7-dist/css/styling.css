@@ -169,7 +169,9 @@ html,body {
 #my-picture img {
 	width: 33%;
 	max-width: 580px;
-	margin-right: 40px;
+	margin-right: 200px;
+	padding-right: 200px;
+
 }
 
 #my-picture p {
