@@ -14,7 +14,7 @@
   border-color: black;
 }
 
-.page-header {
+#about-me {
 	top: -43px;
 	position: relative;
 	padding: 0 0 0 0;
@@ -23,18 +23,12 @@
 
 }
 
-/*#footer {
-	width:100%;
-	border-style: solid;
-	border-color: #FFDF00;
-	position:fixed;
-	bottom: 0;
-	height: 4em;
+#projects {
+	position: relative;
+	top:370px;
+	padding: 0 0 0 0;
 	text-align: center;
-	vertical-align: middle;
-	line-height: 50px;
-	background-color: #FFDF00;
-}*/
+}
 
 
 .footer-social-icons {
@@ -166,17 +160,30 @@ html,body {
 	text-align: center;
 }
 
-#my-picture img {
+#my-picture p img {
 	width: 33%;
 	max-width: 580px;
-	margin-right: 40px;
-
+	margin-left: 35px;
+	margin-right: 30px;
 }
 
-#my-picture p {
+#work {
+	position: relative;
+	top: 370px;
+}
+
+#work-pictures p{
+	display: inline-block;
+	padding-right: 15px;
+}
+
+
+
+
+/*#my-picture p {
 	padding-left: 55px;
 	display: inline;
-}
+}*/
 
 
 
