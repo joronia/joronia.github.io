@@ -25,7 +25,8 @@
 
 #projects {
 	position: relative;
-	top:370px;
+	/*top:370px;*/
+	top: 240px;
 	padding: 0 0 0 0;
 	text-align: center;
 }
@@ -170,12 +171,14 @@ html,body {
 
 #work {
 	position: relative;
-	top: 370px;
+	/*top: 370px;*/
+	top: 220px;
 }
 
 #work-pictures p{
 	display: inline-block;
 	padding-right: 15px;
+	width:100%;
 }
 
 
