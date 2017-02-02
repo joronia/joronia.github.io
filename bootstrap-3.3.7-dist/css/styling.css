@@ -170,8 +170,7 @@ html,body {
 
 #work {
 	position: relative;
-	/*top: 370px;*/
-	top: 220px;
+	top: 370px;
 }
 
 #work-pictures p{
@@ -182,11 +181,6 @@ html,body {
 
 
 
-
-/*#my-picture p {
-	padding-left: 55px;
-	display: inline;
-}*/
 
 
 
