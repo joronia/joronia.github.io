@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- To ensure rendering and zooming on mobile device bootstrap-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Libraries to include-->
 		<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="bootstrap-3.3.7-dist/css/styling.css" rel="stylesheet">
 		<script src="bootstrap-3.3.7-dist/js/jquery-3.1.1.js"></script>
@@ -14,8 +15,8 @@
 	</head>
 <body>
 
-
-	<nav class="navbar navbar-custom navbar-static-top">
+<!--Start of nav element from bootstrap-->
+<nav class="navbar navbar-custom navbar-static-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuResize">
@@ -35,30 +36,35 @@
   </div>
 </nav>
 
-  <div id="board">
-    <p id="name"> I am <b>Jose Oronia</b> </p>
-    <p id="quote"> I am a <i><b>aspiring Software Engineer</i></b> excited to build and make an <b><i>impact on tools that connect people to the world through technology.</b></i></p>
-  </div>
+  <!--Banner setup-->
+ <div id="board">
+   <p id="name"> I am <b>Jose Oronia</b> </p>
+   <p id="quote"> I am a <i><b>aspiring Software Engineer</i></b> excited to build and make an <b><i>impact on tools that connect people to the world through technology.</b></i></p>
+ </div>
 
-  <div class="page-header" id="about-me">
-      <h1> <small> About me </small> </h1>
-  </div>
+  <!--Page header using bootstrap-->
+<div class="page-header" id="about-me">
+    <h1> <small> About me </small> </h1>
+</div>
 
-  <div id="my-picture">
-  	<p> <img src="img/me.jpg" align="left"></p>
-  	<h1> WELCOME </h1>
-  	<p> I am passionate about Computer Science. I enjoy buiding products. I love giving back to the community. During my spare time I like to learn more
-  		about different frameworks and looking up free open source tools. I've also been featured and interviewed by the <a href="http://blogs.microsoft.com/on-the-issues/2016/02/24/washington-state-computer-science-students-urge-applications-for-unique-stem-scholarship-by-feb-29/#sm.00001jdk2zg2iff87r6ba4kno1c8l">Microsoft Blog</a>  and by the
-      <a href="http://www.waopportunityscholarship.org/success-stories/jose-oronia">Washington State Opportunity Scholarship.</a>  
-  	   I am a huge Seattle Sounders fan. I enjoy running and playing soccer. I enjoy the outdoors.
-      Gaming is a hobby of mine. I mostly enjoy playing shooter games like Call of Duty.</p>
-      <p> <a href="img/joronia_resume.pdf" download="joronia_resume">Download my resume.</a> </p>
-  </div>
+  <!--Picture + paragraph to align by each other-->
+<div id="my-picture">
+  <p> <img src="img/me.jpg" align="left"></p>
+  <h1> WELCOME </h1>
+  <p> I am passionate about Computer Science. I enjoy buiding products. I love giving back to the community. During my spare time I like to learn more
+  	about different frameworks and looking up free open source tools. I've also been featured and interviewed by the <a href="http://blogs.microsoft.com/on-the-issues/2016/02/24/washington-state-computer-science-students-urge-applications-for-unique-stem-scholarship-by-feb-29/#sm.00001jdk2zg2iff87r6ba4kno1c8l">Microsoft Blog</a>  and by the
+    <a href="http://www.waopportunityscholarship.org/success-stories/jose-oronia">Washington State Opportunity Scholarship.</a>  
+  	I am a huge Seattle Sounders fan. I enjoy running and playing soccer. I enjoy the outdoors.
+    Gaming is a hobby of mine. I mostly enjoy playing shooter games like Call of Duty.</p>
+    <p> <a href="img/joronia_resume.pdf" download="joronia_resume">Download my resume.</a> </p>
+</div>
 
-  <div class="page-header" id="projects">
-  		<h1> <small> Projects </small></h1>
-  </div>
+  <!--Page header using bootstrap-->
+<div class="page-header" id="projects">
+  	<h1> <small> Projects </small></h1>
+</div>
 
+<!--Project pictures with url to personal projects-->
 <div id="work">
 	<div id="work-pictures">
   		<p><a href="mario/mario.html"><img src="img/new_mario.gif" class="items"></a> Fun project: Semi-Mario</p>
@@ -68,12 +74,12 @@
 </div>
 
 
-
+<!--This is my footer-->
 <div id="stay-footer">
-<!--This is for my footer-->
   <div class="footer-social-icons">
   <!--Here a div to be able to shift everything to the right -->
   	<div id="right">
+  	<!-- Social network icons-->
     	<h5 align="center"> Find me on </h5>
     	<ul class="social-icons">
       	<li><a href="https://github.com/joronia" class="social-icon"><i class="fa fa-github fa-2x"></i></a></li>
@@ -83,6 +89,7 @@
   	</div>
 
   	<div id="left">
+  	<!--Element with my email with link.-->
   		<h5> Contact</h5>
   		<ul class="contact">
   			<li> <a href="mailto:joronia17@my.whitworth.edu"> Email Jose </a><li>
